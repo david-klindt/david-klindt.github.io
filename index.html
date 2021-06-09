@@ -34,7 +34,7 @@
                 <a href="https://github.com/david-klindt">Github</a>
                 <a href="https://www.linkedin.com/in/david-klindt-b03833189/">LinkedIn</a> &nbsp/&nbsp
                 <a href="https://twitter.com/klindt_david">Twitter</a> &nbsp/&nbsp
-                <a href="https://www.youtube.com/channel/UC-hXTCXQqveQlWyJucdltAA?view_as=subscriber">YouTube</a> &nbsp/&nbsp
+                <a href="https://www.youtube.com/channel/UC-hXTCXQqveQlWyJucdltAA?view_as=subscriber">YouTube</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -52,7 +52,6 @@
                 generative models, disentanglement (nonlinear ICA), domain
                 adaptation, robustness, topological data analysis and
                 different topics in computational neuroscience.
-                Representative papers are <span class="highlight">highlighted</span>.
               </p>
             </td>
           </tr>
@@ -60,49 +59,48 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/nerfbake_15.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerfbake_160.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function nerfbake_start() {
-                  document.getElementById('nerfbake_image').style.opacity = "1";
-                }
-
-                function nerfbake_stop() {
-                  document.getElementById('nerfbake_image').style.opacity = "0";
-                }
-                nerfbake_stop()
-              </script>
+              <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://nerf.live">
-              <papertitle>Baking Neural Radiance Fields for Real-Time View Synthesis</papertitle>
+            <td width="75%" valign="middle">
+              <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
+                <papertitle>Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</papertitle>
               </a>
               <br>
-              <a href="https://phogzone.com/">Peter Hedman</a>,
-              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://www.pauldebevec.com/">Paul Debevec</a>
+              <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
               <br>
-              <em>arXiv</em>, 2021 
-              <br>
-              <a href="http://nerf.live">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2103.14645">arXiv</a>
-              /
-              <a href="https://www.youtube.com/watch?v=5jKry8n5YO8">video</a>
-              /
-              <a href="https://nerf.live/#demos">demo</a>
-              <p></p>
-              <p>Baking a trained NeRF into a sparse voxel grid of colors and features lets you render it in real-time in your browser.</p>
+              <em>The Astronomical Journal</em>, 135, 2008
+              <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+              <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
             </td>
+          </tr>
+
+          <tr>
+            <td>
+                <img src="images/kitti_traversal_slow_full.png" width="100%">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2007.10930">
+                <papertitle>Towards Nonlinear Disentanglement in Natural Data with Temporal Sparse Coding</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=EpT-nUAAAAAJ&amp;hl=en">David Klindt*</a>,
+              <a href="https://scholar.google.de/citations?user=I4mXKS4AAAAJ&amp;hl=en">Lukas Schott*</a>,
+              <strong>Yash Sharma*</strong>,
+              <a href="https://scholar.google.com/citations?user=YGEMpYUAAAAJ&amp;hl=en">Ivan Ustyuzhaninov</a>,
+              <a href="https://scholar.google.com/citations?user=v-JL-hsAAAAJ&amp;hl=en">Wieland Brendel</a>,
+              <a href="http://bethgelab.org/people/matthias/">Matthias Bethge</a>,
+              <a href="https://scholar.google.com/citations?user=HYQYE3gAAAAJ&amp;hl=en">Dylan Paiton</a> (*equal contribution)
+              <br>
+              <em>ICLR</em>, 2021 &nbsp; (<font color="red"><strong>Oral; 53/2997</strong></font> submissions)
+              <br>
+              <a href="https://openreview.net/forum?id=EbIDjBynYJ8">paper</a> /
+              <a href="https://github.com/bethgelab/slow_disentanglement">code</a> /
+              <a href="https://youtu.be/Y4RUlRAx31I">talk</a>
+              <p>We show that accounting for the temporally sparse nature of natural transitions leads to a proof of identifiability and reliable learning of disentangled representations on several established benchmark datasets, as well as contributed datasets with natural dynamics.</p>
+            </td>
+          <tr>
 
 
         </tbody></table>
